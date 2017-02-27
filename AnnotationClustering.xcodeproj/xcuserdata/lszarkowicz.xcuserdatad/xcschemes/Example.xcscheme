@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC1437311D06C14B006891D8"
-               BuildableName = "AnnotationClustering.framework"
-               BlueprintName = "AnnotationClustering"
+               BlueprintIdentifier = "BC1437401D06C168006891D8"
+               BuildableName = "Example.app"
+               BlueprintName = "Example"
                ReferencedContainer = "container:AnnotationClustering.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BC37654F1D100B1E00BA8E58"
+               BuildableName = "AnnotationClusteringTests.xctest"
+               BlueprintName = "AnnotationClusteringTests"
+               ReferencedContainer = "container:AnnotationClustering.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BC1437401D06C168006891D8"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:AnnotationClustering.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +61,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC1437311D06C14B006891D8"
-            BuildableName = "AnnotationClustering.framework"
-            BlueprintName = "AnnotationClustering"
+            BlueprintIdentifier = "BC1437401D06C168006891D8"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
             ReferencedContainer = "container:AnnotationClustering.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +80,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC1437311D06C14B006891D8"
-            BuildableName = "AnnotationClustering.framework"
-            BlueprintName = "AnnotationClustering"
+            BlueprintIdentifier = "BC1437401D06C168006891D8"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
             ReferencedContainer = "container:AnnotationClustering.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
